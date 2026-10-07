@@ -25,51 +25,12 @@ jobs:
           php-version: ${{ matrix.php }}
           coverage: none
 
-      - name: Check PHP syntax errors
+      - name: Check PHP syntax errors (plugin files only)
         run: |
           find . -name "*.php" \
             -not -path "./vendor/*" \
             -not -path "./.github/*" \
             -print0 | xargs -0 -n1 php -l
 
-      - name: Confirm no syntax errors found
-        run: echo "✅ All PHP files passed syntax check for PHP ${{ matrix.php }}"
-
-  phpcs:
-    name: WordPress Coding Standards
-    runs-on: ubuntu-latest
-    needs: php-lint
-    continue-on-error: true
-
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-
-      - name: Setup PHP 8.1
-        uses: shivammathur/setup-php@v2
-        with:
-          php-version: '8.1'
-          tools: composer
-          coverage: none
-
-      - name: Install PHP_CodeSniffer + WordPress standards
-        run: |
-          composer global require \
-            squizlabs/php_codesniffer \
-            wp-coding-standards/wpcs \
-            dealerdirect/phpcodesniffer-composer-installer --quiet
-          ~/.composer/vendor/bin/phpcs --config-set installed_paths ~/.composer/vendor/wp-coding-standards/wpcs
-        continue-on-error: true
-
-      - name: Run PHPCS (WordPress Coding Standards - Advisory)
-        run: |
-          ~/.composer/vendor/bin/phpcs \
-            --standard=WordPress \
-            --extensions=php \
-            --ignore=vendor/,node_modules/ \
-            --warning-severity=0 \
-            . || true
-        continue-on-error: true
-
-      - name: PHPCS complete
-        run: echo "✅ PHPCS advisory check complete"
+      - name: ✅ All PHP files passed
+        run: echo "All PHP files passed syntax check on PHP ${{ matrix.php }}"
