@@ -1,0 +1,42 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Composer
+/vendor/autoload.php
+composer.lock
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Build artifacts
+/dist/
+*.zip
+*.tar.gz
+
+# WordPress specific
+wp-config.php
+wp-content/uploads/
+*.log
+
+# PHPUnit
+phpunit.xml
+.phpunit.result.cache
+/coverage/
+
+# PHP CS Fixer
+.php-cs-fixer.cache
+.phpcs.xml
+
+# Environment
+.env
+.env.*
