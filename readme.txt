@@ -110,38 +110,41 @@ While our **Free version** gives you everything you need to safely clean clutter
 
 👉 **[Check Out Pro Pricing & Plans](https://nexurasecurity.com/database-cleaner-optimizer/#pricing)**
 
-| Feature | Free Version | Pro Version |
-| :--- | :---: | :---: |
-| Database Health Audit Score (0–100) | Yes | Yes |
-| Post Revisions, Auto-Drafts & Trash Cleaners | Yes | Yes |
-| Spam & Trash Comments, Pingbacks/Trackbacks | Yes | Yes |
-| Expired Transients & Site Transients | Yes | Yes |
-| Orphaned Metadata Cleaners (Post, User, Comment, Term) | Yes | Yes |
-| Orphaned Term Relationships | Yes | Yes |
-| Duplicated Metadata Cleaners (Post, User, Comment) | Yes | Yes |
-| oEmbed HTML Caches Cleanup | Yes | Yes |
-| Table Optimization & Defragmentation (InnoDB & MyISAM) | Yes | Yes |
-| InnoDB 2 MB Extent Reserve Recognition | Yes | Yes |
-| Autoload Options Size Monitor & Top Options Inspector | Yes | Yes |
-| 1-Click Autoload Toggle (On/Off) | Yes | Yes |
-| Cron Task Analyzer & Unschedule | Yes | Yes |
-| Interactive Dry Run & Safety Preview | Yes | Yes |
-| Asynchronous Batch Processing (No Timeout) | Yes | Yes |
-| Audit Trail History & Local Execution Log | Yes | Yes |
-| Basic Action Scheduler Cleanup (Failed & Canceled) | Yes | Yes |
-| Basic Scheduled Cleanup (Daily, Weekly, Monthly) | Yes | Yes |
-| **Plugin Signature Library (popular plugins, stored locally)** | View only | **Yes, with table and option cleanup** |
-| **Abandoned Tables Detector & Cleaner (Uninstalled Plugins)** | No | **Yes** |
-| **Abandoned Options & Metadata Purger (Deleted Plugins)** | No | **Yes** |
-| **WooCommerce Deep Clean Suite (Sessions, Variations, Order Items & Meta, Webhooks, Analytics)** | No | **Yes** |
-| **Granular Schedule Engine (Custom intervals per cleaner)** | No | **Yes** |
-| **Scheduled Cleanup Email Summary Reports** | No | **Yes** |
-| **1-Click Pre-Cleanup SQL Table Backup** | Warning Modal | **Yes (1-Click SQL)** |
-| **Database Table Engine Converter (MyISAM to InnoDB)** | Engine View | **Yes (1-Click)** |
-| **Raw Table Data, Columns & Index Browser** | No | **Yes** |
-| **Deep Search & Filter inside Options / Postmeta** | No | **Yes** |
-| **WordPress Multisite (Network Super-Admin Clean)** | Single Site | **Yes (Full Network)** |
-| **Support & Updates** | Community (wp.org) | **VIP Dedicated 1-on-1** |
+= Included in Free & Pro =
+
+* Database Health Audit Score (0–100)
+* Post Revisions, Auto-Drafts & Trash Cleaners
+* Spam & Trash Comments, Pingbacks & Trackbacks
+* Expired Transients & Site Transients Cleanup
+* Orphaned Metadata Cleaners (Post, User, Comment, Term)
+* Orphaned Term Relationships Cleanup
+* Duplicated Metadata Cleaners (Post, User, Comment)
+* oEmbed HTML Caches Cleanup
+* Table Optimization & Defragmentation (InnoDB & MyISAM)
+* InnoDB 2 MB Extent Reserve Recognition
+* Autoload Options Size Monitor & Top Options Inspector
+* 1-Click Autoload Toggle (On/Off)
+* WP-Cron Task Analyzer & Unschedule
+* Interactive Dry Run & Safety Preview
+* Asynchronous Batch Processing (No Timeout)
+* Full Audit Trail History & Execution Log
+* Action Scheduler Cleanup (Completed, Failed & Canceled)
+* Basic Scheduled Cleanup (Daily, Weekly, Monthly)
+
+= Pro Exclusive Features =
+
+* **Plugin Signature Library** — identify leftover tables & options from uninstalled plugins
+* **Abandoned Table Detector & Cleaner** — auto-detect and remove orphaned plugin tables
+* **Abandoned Options & Meta Purger** — clean leftover options from deleted plugins
+* **WooCommerce Deep Clean Suite** — sessions, variations, order items & meta, webhooks, analytics
+* **Granular Schedule Engine** — custom cleanup intervals per individual cleaner
+* **Scheduled Cleanup Email Summary Reports** — automated delivery after every scheduled run
+* **1-Click SQL Table Backup** — instant pre-cleanup export (Free shows warning modal only)
+* **Table Engine Converter** — convert MyISAM tables to InnoDB with one click
+* **Raw Table Data, Columns & Index Browser** — inspect database internals visually
+* **Deep Search & Filter** inside Options / Postmeta tables
+* **WordPress Multisite Full Network Cleanup** — super-admin network-wide operations
+* **VIP Dedicated 1-on-1 Support & Priority Updates**
 
 ---
 
